@@ -1,0 +1,15 @@
+ Q1 How can you implement shared functionality across a component tree?
+ 
+ Answer-To implement shared functionality across a component tree in React, we can use the Context API, custom hooks, or higher-order    components.
+
+ Context API: Creating a context using React.createContext, then provide the context value at a higher level in our component tree using a Provider. Components that need access to this shared state or functionality can consume it using useContext or Context.Consumer. This allows any nested component to access the shared values or functions without needing to pass props through every level.
+
+ Custom Hooks: Defining a custom hook that encapsulates the shared functionality or state logic. This hook can be used by any component to access or manage the shared functionality. Custom hooks are great for reusing logic across multiple components while keeping the components themselves simple and focused.
+
+ Higher-Order Components (HOCs): Creating  an HOC that wraps a component and injects the shared functionality or state as props. This approach is useful for adding common behavior or data to components without altering their structure.
+
+
+ Q2 Why is the useState hook appropriate for handling state in a complex component?
+
+ Answer The useState hook is great for managing state in complex components because it keeps things simple and organized. It lets us manage different pieces of state separately, which makes our code easier to understand and maintain. Each piece of state has its own variable and update function, so we don’t have to mix everything together. This clear separation helps avoid confusion and makes sure updates are handled correctly. Plus, useState allows us to update state based on its previous value, which helps with more complex state changes. Overall, useState makes it easier to keep track of and manage state in complicated components.
+ 
