@@ -2,7 +2,7 @@ Help Center API and Client
 
 Project Overview
 
-This project is a full-stack web application that includes both  RESTful API for managing "Help Center" cards and a frontend React application for displaying and searching through these cards. The cards represent different sections of a help center, such as "Branches," "Manage Your Account," and "Manage Billing." The project allows users to create, retrieve, and search through these cards.
+This project is a full-stack web application that includes both  RESTful API for managing "Help Center" cards and a frontend React application for displaying and searching through these cards. The cards represent different sections of a help center, such as "Branches", "Manage Your Account," and "Manage Billing." The project allows users to create, retrieve, and search through these cards.
 
 Features
 
